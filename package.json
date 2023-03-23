@@ -1,0 +1,20 @@
+{
+  "name": "creating_first_server",
+  "version": "1.0.0",
+  "description": "our first node.js server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Goutam96801/creating_first_server.git"
+  },
+  "author": "Goutam Kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Goutam96801/creating_first_server/issues"
+  },
+  "homepage": "https://github.com/Goutam96801/creating_first_server#readme"
+}
+ 
