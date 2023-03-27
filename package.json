@@ -4,7 +4,8 @@
   "description": "our first node.js server",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js" 
+    "start": "node index.js",
+    "dev": "nodemon index.js" 
   },
   "repository": {
     "type": "git",
@@ -15,6 +16,8 @@
   "bugs": {
     "url": "https://github.com/Goutam96801/creating_first_server/issues"
   },
-  "homepage": "https://github.com/Goutam96801/creating_first_server#readme"
+  "homepage": "https://github.com/Goutam96801/creating_first_server#readme",
+  "dependencies": {
+    "nodemon": "^2.0.22"
+  }
 }
- 

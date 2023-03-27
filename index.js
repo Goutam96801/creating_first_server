@@ -1,14 +1,14 @@
 const http = require('http');
 
-const port = 8081;
+const port = 8081; //Local port number
 
 http.createServer((request, response) => {
     response.writeHead(200, { 'Content-Type': 'text/html' });
-    response.write('<h1>Hello, this is from my server</h1>');
+    response.write('<h1>Hello, Welcome to my server</h1>');
     response.end();
 
 })
-.listen(port, () => {
+.listen(port, () => { //callback function
     console.log(`Nodejs server started on port ${port}`);
  }); 
 
